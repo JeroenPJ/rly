@@ -1,15 +1,13 @@
-# Rly
+# rly
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rly`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+rly is a gem that adds URL shortcuts to your CLI per directory, so that you can save & open URLs conveniently in a given directory.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rly'
+gem 'urly'
 ```
 
 And then execute:
@@ -18,11 +16,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rly
+    $ gem install urly
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `rly` in your CLI. todo: more detailed usage?
+
+Important to note is that this saves shortcuts per directory! So adding a shortcut will mean it's only usable in that directory.
 
 ## Development
 
@@ -32,11 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rly. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Code of Conduct
-
-Everyone interacting in the Rly project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rly/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rly.
 
 ## Copyright
 
